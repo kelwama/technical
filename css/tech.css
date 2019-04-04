@@ -57,11 +57,11 @@ pre {
 
 /* ----------- Non-Retina Screens ----------- */
 @media screen 
-  and (max-device-width: 600px) 
+  and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
     
     #navbar {
-      position: relative;
+      position: absolute;
     }
     #navbar li {
       display: inline;
